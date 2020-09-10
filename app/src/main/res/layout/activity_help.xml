@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/helpmain"
+    android:orientation="vertical"
+    tools:context=".HelpActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/back"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="58dp"
+        android:text="How to Play"
+        android:textColor="#6c0707"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="@string/HowPlay"
+        android:textColor="#6c0707"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newmenu"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="120dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/playMusic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/mon"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/playSound"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/son"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/playimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/playimage"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#ffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:text="Play"
+                android:textAllCaps="true"
+                android:textColor="#6c0707"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/highimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/highimage"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#ffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/highscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:text="High Score"
+                android:textAllCaps="true"
+                android:textColor="#6c0707"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/setimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/helpimage"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#ffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:text="help"
+                android:textAllCaps="true"
+                android:textColor="#6c0707"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/quitimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/quitimage"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#ffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/quit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@null"
+                android:text="quit"
+                android:textAllCaps="true"
+                android:textColor="#6c0707"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/que" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
